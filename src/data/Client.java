@@ -21,6 +21,20 @@ public class Client extends Person {
         this.accounts = new ArrayList<>();
         this.manager = new Manager[1];
     }  
+
+    public Manager[] getManager() {
+        return manager;
+    }
+
+    public ArrayList<Account> getAccounts() {
+        return accounts;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+    
+    
     
     @Override
     public String toString() {

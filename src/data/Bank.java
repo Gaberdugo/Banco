@@ -38,12 +38,10 @@ public class Bank {
     else return false;
     }
     
-    public boolean addAccount(String nombre) {
+    public boolean addClient(String nombre) {
     Client client = new Client(nombre);
     if (this.clients.add(client))
         return true;
     else return false;
     }
-    
-    
 }
